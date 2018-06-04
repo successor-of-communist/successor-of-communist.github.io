@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="ComputerVision," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="安装 Node.js安装 Node.js 的最佳方式是使用 nvm。 Wget:1$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh">
-<meta name="keywords" content="hexo">
+<meta name="description" content="参考地址https://blog.csdn.net/dcrmg/article/details/52344902">
+<meta name="keywords" content="ComputerVision">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ubuntu16.04 Hexo配置">
-<meta property="og:url" content="http://yoursite.com/2018/05/31/page/index.html">
+<meta property="og:title" content="Canny边缘检测">
+<meta property="og:url" content="http://yoursite.com/2018/06/04/page_canny/index.html">
 <meta property="og:site_name" content="Successor of Communist">
-<meta property="og:description" content="安装 Node.js安装 Node.js 的最佳方式是使用 nvm。 Wget:1$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh">
+<meta property="og:description" content="参考地址https://blog.csdn.net/dcrmg/article/details/52344902">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-31T14:11:09.130Z">
+<meta property="og:updated_time" content="2018-06-04T04:04:13.375Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ubuntu16.04 Hexo配置">
-<meta name="twitter:description" content="安装 Node.js安装 Node.js 的最佳方式是使用 nvm。 Wget:1$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh">
+<meta name="twitter:title" content="Canny边缘检测">
+<meta name="twitter:description" content="参考地址https://blog.csdn.net/dcrmg/article/details/52344902">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/31/page/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/04/page_canny/"/>
 
 
 
 
 
-  <title>Ubuntu16.04 Hexo配置 | Successor of Communist</title>
+  <title>Canny边缘检测 | Successor of Communist</title>
   
 
 
@@ -273,12 +273,12 @@
   
   
 
-  <article class="post post-type-tags" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/31/page/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/04/page_canny/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="soc">
@@ -295,7 +295,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Ubuntu16.04 Hexo配置</h1>
+          <h1 class="post-title" itemprop="name headline">Canny边缘检测</h1>
         
 
         <div class="post-meta">
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-31T21:58:37+08:00">
-                2018-05-31
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-04T11:59:18+08:00">
+                2018-06-04
               </time>
             
 
@@ -330,8 +330,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
+                  <a href="/categories/ComputerVision/" itemprop="url" rel="index">
+                    <span itemprop="name">ComputerVision</span>
                   </a>
                 </span>
 
@@ -367,17 +367,7 @@
       
 
       
-        <h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><p>安装 Node.js 的最佳方式是使用 nvm。</p>
-<p>Wget:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wget -qO- http<span class="variable">s:</span>//raw.github.<span class="keyword">com</span>/creationix/nvm/master/install.<span class="keyword">sh</span> | <span class="keyword">sh</span></span><br></pre></td></tr></table></figure></p>
-<a id="more"></a>
-<p>安装完成后，重启终端并执行下列命令即可安装 Node.js。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> nvm install stable</span></span><br></pre></td></tr></table></figure></p>
-<p>##安装 Hexo<br>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install -g hexo-cli</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="初探-Hexo"><a href="#初探-Hexo" class="headerlink" title="初探 Hexo"></a>初探 Hexo</h2><p>先要初始化一个目录<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo init &lt;filename&gt;</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo g</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo s      //调试</span></span><br></pre></td></tr></table></figure></p>
-<p>执行后会出现<br>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>. Press Ctrl+C to stop.</p>
-<p>浏览器登录网址就可以看到刚创建的博客</p>
-<h2 id="将hexo博客部署到github上"><a href="#将hexo博客部署到github上" class="headerlink" title="将hexo博客部署到github上"></a>将hexo博客部署到github上</h2><p>申请github帐号创建仓库：yourname.github.io<br>yourname是你的账户名</p>
-<p>修改配置文件blog/_config.yml，修改deploy项（在文件最下面）的内容，如下所示：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Deployment 注释</span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># Docs: https://hexo.io/docs/deployment.html</span></span></span><br><span class="line">deploy:</span><br><span class="line"><span class="meta">  #</span><span class="bash"> 类型</span></span><br><span class="line">  type: git</span><br><span class="line"><span class="meta">  #</span><span class="bash"> 仓库</span></span><br><span class="line">  repo: git@github.com:yourname/yourname.github.io.git</span><br><span class="line"><span class="meta">  #</span><span class="bash"> 分支</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
-<p>输入下面的命令将hexo博客部署到github中：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 清空静态页面</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="meta">#</span><span class="bash"> 生成静态页面</span></span><br><span class="line">hexo generate</span><br><span class="line"><span class="meta">#</span><span class="bash"> 部署 </span></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+        <h3 id="参考地址"><a href="#参考地址" class="headerlink" title="参考地址"></a>参考地址</h3><p><a href="https://blog.csdn.net/dcrmg/article/details/52344902" target="_blank" rel="noopener">https://blog.csdn.net/dcrmg/article/details/52344902</a></p>
 
       
     </div>
@@ -395,7 +385,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/ComputerVision/" rel="tag"># ComputerVision</a>
           
         </div>
       
@@ -408,8 +398,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/31/categories/" rel="next" title="categories">
-                <i class="fa fa-chevron-left"></i> categories
+              <a href="/2018/05/31/page_hexo/" rel="next" title="Ubuntu16.04 Hexo配置">
+                <i class="fa fa-chevron-left"></i> Ubuntu16.04 Hexo配置
               </a>
             
           </div>
@@ -493,7 +483,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -504,7 +494,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -515,7 +505,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -548,7 +538,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">1.</span> <span class="nav-text">安装 Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初探-Hexo"><span class="nav-number">2.</span> <span class="nav-text">初探 Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将hexo博客部署到github上"><span class="nav-number">3.</span> <span class="nav-text">将hexo博客部署到github上</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考地址"><span class="nav-number">1.</span> <span class="nav-text">参考地址</span></a></li></ol></div>
             
 
           </div>
