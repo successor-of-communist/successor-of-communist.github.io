@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 h1,
@@ -445,11 +445,11 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 1100px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 900px;
+    width: 1300px;
   }
 }
 .main {
@@ -457,11 +457,11 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 1100px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 900px;
+    width: 1300px;
   }
 }
 .footer {
@@ -474,11 +474,11 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 1100px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 900px;
+    width: 1300px;
   }
 }
 pre,
@@ -1255,7 +1255,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1960,7 +1960,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f937c;
+  background: #545d16;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2831,6 +2831,9 @@ hr {
 .site-subtitle {
   display: none;
 }
+.content-wrap {
+  background: rgba(255,255,255,0.9);
+}
 .site-nav-toggle {
   position: static;
   float: right;
@@ -2933,7 +2936,7 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-body {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .posts-expand .post-body img {
@@ -2959,7 +2962,7 @@ hr {
 }
 .post-button a {
   padding: 0;
-  font-size: 14px;
+  font-size: 18px;
   background: none;
   border: none;
   border-bottom: 2px solid #666;
@@ -2967,12 +2970,12 @@ hr {
 }
 @media (max-width: 767px) {
   .post-button a {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1600px) {
   .post-button a {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 .post-button a:hover {
@@ -3041,4 +3044,30 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight,
+pre {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.highlight,
+code,
+pre {
+  border: 1px solid #acd6d6;
+}
+body {
+  background: rgba(20,30,20,0.7);
 }
