@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Ubuntu 16.04 安装opencv]]></title>
+    <url>%2F2018%2F06%2F05%2Fpage_opencv%2F</url>
+    <content type="text"><![CDATA[1.去官网下载opencv，在本教程中选用的时opencv3.4.1，其他版本的配置方法异曲同工下载地址,选择sources版本 2.解压下载下来的zip包1unzip opencv-3.4.1.zip 3.进入到解压后的文件包中 4.安装依赖库和cmake ，如果提醒需要apt-get update，那就先sudo su进入root权限，再sudo apt-get update，然后在执行下面命令123sudo apt-get install cmake sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg.dev libtiff4.dev libswscale-dev libjasper-dev 5.安装完cmake之后执行命令 ,创建编译文件夹，不创建的会提示fatal:In-source builds are not allowed.12mkdir my_build_dircd my_build_dir 6.cmake一下1cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local .. 注意：如果已经在新的文件夹中编译，但是还会出现之前的报错，把cmakecache.txt删了再编译 期间可能会下载一个东西，等待一会儿就OK 7.执行命令，漫长的编译过程1sudo make 8.执行命令1sudo make install 9.sudo make install 执行完毕后OpenCV编译过程就结束了，接下来就需要配置一些OpenCV的编译环境首先将OpenCV的库添加到路径，从而可以让系统找到1sudo gedit /etc/ld.so.conf.d/opencv.conf 执行此命令后打开的可能是一个空白的文件，不用管，只需要在文件末尾添加 /usr/local/lib 10.执行如下命令使得刚才的配置路径生效1sudo ldconfig 过程中没有问题，有问题的可以看下最下面的参考网址 11.配置bash1sudo gedit /etc/bash.bashrc 在最末尾添加 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig export PKG_CONFIG_PATH 保存，执行如下命令使得配置生效1source /etc/bash.bashrc 更新1sudo updatedb 12.至此所有的配置都已经完成下面用一个小程序测试一下 找到cd到opencv-3.4.1/samples/cpp/example_cmake目录下我们可以看到这个目录里官方已经给出了一个cmake的example我们可以拿来测试下按顺序执行123cmake .make./opencv_example 即可看到打开了摄像头，在左上角有一个hello opencv即表示配置成功 13.测试随便找个代码试一下如果提示 fatal:core/core.hpp file not find前面加opencv2/ #include &lt;opencv2/core/core.hpp&gt;opencv的头文件都类似 参考地址：https://blog.csdn.net/cocoaqin/article/details/78163171]]></content>
+      <tags>
+        <tag>opencv</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Canny边缘检测]]></title>
     <url>%2F2018%2F06%2F04%2Fpage_canny%2F</url>
     <content type="text"><![CDATA[参考地址https://blog.csdn.net/dcrmg/article/details/52344902]]></content>
