@@ -74,11 +74,11 @@
       <category term="vim" scheme="http://yoursite.com/categories/vim/"/>
     
     
-      <category term="mathjax" scheme="http://yoursite.com/tags/mathjax/"/>
-    
       <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
     
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="mathjax" scheme="http://yoursite.com/tags/mathjax/"/>
     
   </entry>
   
