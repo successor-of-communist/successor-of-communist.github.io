@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ACM," />
 
 
 
@@ -81,14 +81,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="Problem  B 排序二叉树">
+<meta name="keywords" content="ACM">
+<meta property="og:type" content="article">
+<meta property="og:title" content="page_acm_cug2018">
+<meta property="og:url" content="http://yoursite.com/2018/06/18/page-acm-cug2018/index.html">
 <meta property="og:site_name" content="Successor of Communist">
+<meta property="og:description" content="Problem  B 排序二叉树">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-31T14:17:07.714Z">
+<meta property="og:updated_time" content="2018-06-18T15:29:48.682Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="page_acm_cug2018">
+<meta name="twitter:description" content="Problem  B 排序二叉树">
 
 
 
@@ -118,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/18/page-acm-cug2018/"/>
 
 
 
 
 
-  <title>categories | Successor of Communist</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>page_acm_cug2018 | Successor of Communist</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -264,40 +268,215 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/18/page-acm-cug2018/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="soc">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/Communist-Fist.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Successor of Communist">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">categories</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                目前共计 4 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ACM/">ACM</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/ComputerVision/">ComputerVision</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vim/">vim</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">page_acm_cug2018</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-18T23:26:21+08:00">
+                2018-06-18
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-06-18T23:29:48+08:00">
+                2018-06-18
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ACM/" itemprop="url" rel="index">
+                    <span itemprop="name">ACM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+
+  <span class="post-meta-divider">|</span>
+  <span id="busuanzi_value_page_pv"></span>次阅读
+
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h3 id="Problem-B-排序二叉树"><a href="#Problem-B-排序二叉树" class="headerlink" title="Problem  B 排序二叉树"></a>Problem  B 排序二叉树</h3><a id="more"></a>
+<p>直接写二叉树会超时<br>在插入一个数据时，会发现它会放在二叉树上刚好比它大或者刚好比它小的后面，<br>也就是说它的父亲不是刚好比它大就是刚好比它小<br>可以用一个set维护已经插入二叉树的数，然后可以二分搜索到刚好比它大或者刚好比它小的数<br>然后把这个数也插入</p>
+<hr>
+<h3 id="Promble-E-噩梦中的序列"><a href="#Promble-E-噩梦中的序列" class="headerlink" title="Promble E 噩梦中的序列"></a>Promble E 噩梦中的序列</h3><p>直接暴力DFS</p>
+<hr>
+<h3 id="Problem-H-How-many-bracelets"><a href="#Problem-H-How-many-bracelets" class="headerlink" title="Problem H How many bracelets?"></a>Problem H How many bracelets?</h3><p>要用到Polya计数(看挑战书上)<br>一般的模板是有m种颜色，个数任意<br>这个题有3种颜色，每种颜色的个数是给定的，所以单个颜色珍珠的个数必须被n/gcd(k,n)整除,<br>否则的话，会有多种颜色的珍珠组成一个轨迹，而要求的是轨迹上的珍珠颜色都是相同的<br>然后将珍珠的分成gcd(k,n)组，算出有多少种组合<br>上面的是旋转<br>下面说翻转<br>有两种情况：当N为奇数时，可以选择一个点最为对称点，其它的点都是两两对称，所以就是，对称点给一种颜色，其它的就是剩余的颜色的组合<br>当N为偶数时，有两种情况：1选择两个点为对称轴，给这两个点枚举颜色，其它就是剩余颜色组合<br>2选两个边为对称轴，然后组合</p>
+<h3 id="Problem-K-棋盘游戏"><a href="#Problem-K-棋盘游戏" class="headerlink" title="Problem K 棋盘游戏"></a>Problem K 棋盘游戏</h3><p>bfs棋盘的所有情况</p>
+<hr>
+<h3 id="Problem-I-Galgame中的SL"><a href="#Problem-I-Galgame中的SL" class="headerlink" title="Problem I Galgame中的SL"></a>Problem I Galgame中的SL</h3><p>可持久化并查集模板题</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Donate comment here</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="soc 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ACM/" rel="tag"><i class="fa fa-tag"></i> ACM</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/18/page-acm-template/" rel="next" title="模板">
+                <i class="fa fa-chevron-left"></i> 模板
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -330,8 +509,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -412,6 +600,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Problem-B-排序二叉树"><span class="nav-number">1.</span> <span class="nav-text">Problem  B 排序二叉树</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Promble-E-噩梦中的序列"><span class="nav-number">2.</span> <span class="nav-text">Promble E 噩梦中的序列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Problem-H-How-many-bracelets"><span class="nav-number">3.</span> <span class="nav-text">Problem H How many bracelets?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Problem-K-棋盘游戏"><span class="nav-number">4.</span> <span class="nav-text">Problem K 棋盘游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Problem-I-Galgame中的SL"><span class="nav-number">5.</span> <span class="nav-text">Problem I Galgame中的SL</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
