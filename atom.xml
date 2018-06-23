@@ -45,24 +45,20 @@
     <link href="http://yoursite.com/2018/06/20/page-acm-index/"/>
     <id>http://yoursite.com/2018/06/20/page-acm-index/</id>
     <published>2018-06-20T08:45:00.000Z</published>
-    <updated>2018-06-20T09:01:58.548Z</updated>
+    <updated>2018-06-23T03:52:40.331Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="最短路"><a href="#最短路" class="headerlink" title="最短路"></a>最短路</h2><p>hdu1593&emsp;hdu2433&emsp;hdu2112&emsp;hdu2544</p><h2 id="第K短路"><a href="#第K短路" class="headerlink" title="第K短路"></a>第K短路</h2><p>poj2449</p><h2 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h2><p>hdu2647</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="最短路"><a href="#最短路" class="headerlink" title="最短路"></a>最短路</h2><p>hdu1593&emsp;hdu2433&emsp;hdu2112&emsp;hdu2544<br><a id="more"></a></p><h2 id="第K短路"><a href="#第K短路" class="headerlink" title="第K短路"></a>第K短路</h2><p>poj2449</p><h2 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h2><p>hdu2647</p><h2 id="强连通分量"><a href="#强连通分量" class="headerlink" title="强连通分量"></a>强连通分量</h2><p>poj2186&emsp;poj1236&emsp;poj1904</p><h2 id="2-sat"><a href="#2-sat" class="headerlink" title="2-sat"></a>2-sat</h2><p>poj3207</p><h2 id="LCA"><a href="#LCA" class="headerlink" title="LCA"></a>LCA</h2><p>poj1330</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;最短路&quot;&gt;&lt;a href=&quot;#最短路&quot; class=&quot;headerlink&quot; title=&quot;最短路&quot;&gt;&lt;/a&gt;最短路&lt;/h2&gt;&lt;p&gt;hdu1593&amp;emsp;hdu2433&amp;emsp;hdu2112&amp;emsp;hdu2544&lt;/p&gt;
-&lt;h2 id=&quot;第K短路&quot;&gt;&lt;
-      
+      &lt;h2 id=&quot;最短路&quot;&gt;&lt;a href=&quot;#最短路&quot; class=&quot;headerlink&quot; title=&quot;最短路&quot;&gt;&lt;/a&gt;最短路&lt;/h2&gt;&lt;p&gt;hdu1593&amp;emsp;hdu2433&amp;emsp;hdu2112&amp;emsp;hdu2544&lt;br&gt;
     
     </summary>
     
-      <category term="acm" scheme="http://yoursite.com/categories/acm/"/>
+      <category term="ACM" scheme="http://yoursite.com/categories/ACM/"/>
     
     
-      <category term="acm" scheme="http://yoursite.com/tags/acm/"/>
+      <category term="ACM" scheme="http://yoursite.com/tags/ACM/"/>
     
   </entry>
   
